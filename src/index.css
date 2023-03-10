@@ -1,0 +1,52 @@
+:root {
+  --primary-0: #483698;
+  --secondary-0: #ffffff;
+  --secondary-1: #f9f9f9;
+  --secondary-2: #b9b9b9;
+  --secondary-3: #8a8a8a;
+  --secondary-4: #282828;
+  --CTA-1: #ffe766;
+  --CTA-0: #fbde40;
+  --Danger: #dc3545;
+
+  --fontFamily-primary: "Comfortaa", cursive;
+  --fontFamily-secondary: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: var(--CTA-0);
+  overflow-x: hidden;
+  place-items: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--fontFamily-primary);
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: var(--primary-0);
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--fontFamily-secondary);
+  font-weight: 700;
+  color: var(--secondary-4);
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}

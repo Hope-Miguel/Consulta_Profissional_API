@@ -1,0 +1,39 @@
+.dados_profissional {
+  padding: 40px;
+  margin-top: 5rem;
+}
+
+.dados_profissional-form {
+  margin-top: 1rem;
+}
+.dados_profissional-label {
+  color: var(--secondary-4);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.dados_profissional-form .dados_profissional-select, input {
+  border: 1px solid var(--primary-0);
+  border-radius: 4px;
+  height: 25px;
+  outline: none;
+}
+.dados_profissional-form  .inputName {
+  width: 100%;
+}
+
+.dados_profissional-select {
+    width: 90%;
+}
+
+.dados_profissional-span {
+  color: var(--Danger);
+}
+
+.dados_profissional-btn{
+    background: var(--primary-0) !important;
+    color: var(--secondary-0) !important;
+    width: 95%;
+    height: 30px;
+    margin-top: 1rem !important;
+}
